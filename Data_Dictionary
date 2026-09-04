@@ -1,0 +1,112 @@
+RaceDay Data Dictionary
+
+1. Introduction
+
+This data dictionary provides an overview of the main entities planned for the RaceDay database.
+
+The database design currently contains six main entities:
+
+Users
+Events
+Categories
+Enrolments
+Results
+Routes
+
+The data dictionary supports the Entity Relationship Diagram and SQL database design created for Part 1.
+
+
+
+2. Users
+
+Stores information about people using the RaceDay system.
+
+Field	Description
+UserID	Unique identifier for a user
+Name	User’s name
+Email	User’s email address
+Password	User authentication information
+Role	Identifies whether the user is an Organiser or Participant
+
+
+
+3. Events
+
+Stores information about sporting events.
+
+Field	Description
+EventID	Unique identifier for an event
+EventName	Name of the event
+EventDate	Date of the event
+Location	Location where the event takes place
+OrganiserID	Identifies the Organiser responsible for the event
+
+
+
+4. Categories
+
+Stores categories available for an event.
+
+Field	Description
+CategoryID	Unique identifier for a category
+CategoryName	Name of the category
+EventID	Identifies the event associated with the category
+
+
+
+5. Enrolments
+
+Stores participant enrolments in events.
+
+Field	Description
+EnrolmentID	Unique identifier for an enrolment
+UserID	Identifies the Participant
+EventID	Identifies the selected event
+CategoryID	Identifies the selected category
+EnrolmentDate	Date the participant enrolled
+
+
+
+6. Results
+
+Stores participant performance results.
+
+Field	Description
+ResultID	Unique identifier for a result
+EnrolmentID	Identifies the enrolment associated with the result
+FinishTime	Participant’s recorded finishing time
+Position	Participant’s finishing position
+
+
+
+7. Routes
+
+Stores information about event routes.
+
+Field	Description
+RouteID	Unique identifier for a route
+EventID	Identifies the event associated with the route
+RouteName	Name or description of the route
+Distance	Distance of the route
+
+
+
+8. Relationships
+
+The main database relationships are:
+
+One Organiser can manage many Events.
+One Event can contain many Categories.
+One Event can have many Enrolments.
+One Participant can have many Enrolments.
+One Category can have many Enrolments.
+One Enrolment can have zero or one Result.
+One Event can have zero or one Route.
+
+
+
+9. Part 2
+
+The data dictionary represents the planned database structure for Part 1.
+
+Fields and database structures may be expanded or refined during Part 2 as the RaceDay application is developed.
