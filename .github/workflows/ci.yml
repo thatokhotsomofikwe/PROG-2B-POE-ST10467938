@@ -17,11 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check documentation
+      - name: Check project documentation
         run: |
-          test -f docs/RaceDay_ERD.png
-          test -f docs/RaceDay_API_Endpoint_Plan.md
-          test -f docs/RaceDay_Database.sql
+          test -f README.md
+          test -f RaceDay.pdf
+          test -f RaceDay_API_Endpoint_Plan.md
+          test -f RaceDay_Database.sql
 
       - name: CI successful
-        run: echo "RaceDay project documentation check passed!"
+        run: echo "RaceDay project documentation check passed successfully!"
