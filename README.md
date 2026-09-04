@@ -56,15 +56,15 @@ Contains the GitHub Actions Continuous Integration workflow used to automaticall
 
 The project will use:
 
-* C#
-* ASP.NET Core Web API
-* .NET 8
-* SQL Server
-* Entity Framework Core
-* Swagger / OpenAPI
-* GitHub
-* GitHub Actions
-* dbdiagram.io
+C#
+ASP.NET Core Web API
+.NET 8
+SQL Server
+Entity Framework Core
+Swagger / OpenAPI
+GitHub
+GitHub Actions
+dbdiagram.io
 
 
 
