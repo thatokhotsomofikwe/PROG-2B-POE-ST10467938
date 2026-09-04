@@ -14,7 +14,7 @@ The current project focuses on Planning and System Design. The repository contai
 
 The current repository contains the following:
 
-RaceDay/
+PROF-2B-POE-ST10467938/
 │
 ├── .github/
 │   └── workflows/
@@ -23,7 +23,13 @@ RaceDay/
 ├── README.md
 ├── RaceDay.pdf
 ├── RaceDay_API_Endpoint_Plan.md
-└── RaceDay_Database.sql
+├── RaceDay_Database.sql
+├── System_Requirements.md
+├── Functional_Requirements.md
+├── Non_Functional_Requirements.md
+├── Database_Business_Rules.md
+├── Data_Dictionary.md
+└── Testing_Plan.md
 
 README.md
 
