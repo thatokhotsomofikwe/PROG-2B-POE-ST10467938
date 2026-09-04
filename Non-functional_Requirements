@@ -1,0 +1,109 @@
+RaceDay Non-Functional Requirements
+
+1. Introduction
+
+Non-functional requirements describe the qualities and performance characteristics that the RaceDay system should provide.
+
+These requirements will guide development during the later stages of the project.
+
+
+
+2. Security
+
+NFR01 — Authentication
+
+User accounts and protected functionality should require authentication.
+
+NFR02 — Authorisation
+
+The system should use role-based access control to restrict functionality.
+
+NFR03 — Data Protection
+
+User and participant information should be protected from unauthorised access.
+
+
+
+3. Performance
+
+NFR04 — Response Time
+
+The API should provide responses within a reasonable amount of time under normal operating conditions.
+
+NFR05 — Database Performance
+
+Database queries should be designed efficiently to support normal system operations.
+
+
+
+4. Usability
+
+NFR06 — Ease of Use
+
+The system should be straightforward for both Organisers and Participants to use.
+
+NFR07 — Clear Information
+
+Event, category, enrolment and result information should be presented clearly.
+
+NFR08 — API Documentation
+
+The API should be documented using Swagger/OpenAPI to assist with testing and development.
+
+
+
+5. Reliability
+
+NFR09 — Data Integrity
+
+The database should maintain relationships and constraints to reduce invalid or inconsistent data.
+
+NFR10 — Error Handling
+
+The application should provide appropriate responses when errors occur.
+
+
+
+6. Maintainability
+
+NFR11 — Code Organisation
+
+The application should use a clear and maintainable project structure.
+
+NFR12 — Version Control
+
+The project should use GitHub to track changes throughout development.
+
+NFR13 — Continuous Integration
+
+GitHub Actions should be used to automatically check the project when changes are committed.
+
+
+
+7. Compatibility
+
+NFR14 — Web Compatibility
+
+The system should be designed to operate through modern web browsers.
+
+NFR15 — Development Compatibility
+
+The application should be developed using technologies compatible with .NET 8.
+
+
+
+8. Scalability
+
+NFR16 — Future Expansion
+
+The system should be designed so that additional functionality can be added as the project develops.
+
+Possible future functionality includes online payments, notifications, live tracking and mobile support.
+
+
+
+9. Part 2
+
+These non-functional requirements describe the intended quality characteristics of the RaceDay system.
+
+Implementation and further refinement of these requirements will take place during Part 2.
